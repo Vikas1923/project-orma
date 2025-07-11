@@ -3,3 +3,6 @@ pytesseract
 pillow
 opencv-python
 pandas
+pdf2image
+poppler-utils
+validators

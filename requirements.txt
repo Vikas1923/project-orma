@@ -1,1 +1,5 @@
-streamlit pytesseract pillow
+streamlit
+pytesseract
+pillow
+opencv-python
+pandas

@@ -6,8 +6,8 @@ from datetime import datetime, timedelta
 
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
-st.set_page_config(page_title="Warranty Reminder POC", layout="centered")
-st.title("🧾 Warranty Manager - AI-Based POC")
+st.set_page_config(page_title="Project-ORMA POC", layout="centered")
+st.title("🧾 Project ORMA - POC")
 st.markdown("Upload your bill image. We'll extract the product info and send a WhatsApp-style reminder.")
 
 uploaded_file = st.file_uploader("📤 Upload your product bill (jpg, jpeg, png)", type=["jpg", "jpeg", "png"])
